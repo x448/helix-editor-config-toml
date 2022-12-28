@@ -1,20 +1,24 @@
 # Post-Modern Helix Editor Configuration (config.toml)
-A post-modern Helix editor configuration (config.toml) for new users, because everything old is new again.
+A Helix editor configuration (config.toml) for new users.
 
 ## Introduction
 
-The settings in this config help new users avoid some problems and show how to configure Helix editor with useful examples.
+[Helix](https://github.com/helix-editor/helix) is a modal text editor (similar to Vim) but Helix has "batteries included".  You don't need to install a bunch of plugins to make Helix great for editing and navigating source code.
+
+This small config helps new users avoid some early problems and shows how to configure Helix editor with useful examples.
 
 Notably, this config maps `esc` key to reset Helix to default state of:
 - normal mode
 - single cursor
 - not having multiple chars selected.
 
-This post-modern `esc` key shortcut is helpful to new users and reviewers. See:
+This `esc` key shortcut is helpful to new users and reviewers. See:
 - https://github.com/helix-editor/helix/pull/5289
 - https://www.youtube.com/watch?v=8L308PdmhMY&t=887s
 
-Some advanced Helix users dislike the post-modern `esc` key shortcut.  They prefer to use distinct keys (extra steps) to escape back to fully default state.  Each way has its pros and cons, with this post-modern config being easier for new users.
+As of Helix 22.12 (December 2022), most color hemes (including default) [don't work well in Helix tutorial](https://github.com/helix-editor/helix/pull/5309) (`hx --tutor`).  This config uses "dark_plus" theme which works great in Helix tutorial and it looks like "Dark+" from Visual Studio Code.
+
+NOTE: Some advanced Helix users dislike the `esc` key shortcut.  They [prefer to use distinct keys](https://github.com/helix-editor/helix/pull/5289#issuecomment-1365344355) (extra steps) to escape back to fully default state.  However, `esc` key shortcut doesn't prevent users from pressing comma and semicolon for distinct operations, so using `esc` to fully reset makes Helix easier and more ergonomic.
 
 ### Instructions:
 
@@ -26,7 +30,7 @@ Copy this file to %AppData%\helix\config.toml
 
 ## Notable Helix Settings for New Users
 
-This config makes Helix editor:
+This small config (~15 settings) makes Helix editor:
 - Map `esc` key to reset Helix to fully default state.
 - Use dark_plus theme, which works without problems in `hx --tutor` and looks like "Dark+" theme from Visual Studio Code.
 - Make cursor shape indicate normal, insert, and select modes.
@@ -36,7 +40,10 @@ Some other useful settings are included as examples.
 
 ## Vim-Like Configuration for Helix
 
-See https://github.com/LGUG2Z/helix-vim
+Helix (and Kakuone) intentionally use some different keys and key combinations, which are worthwhile to try with an open mind.  Thankfully, many keys are the same.
+
+But if you prefer to keep editing code the Vim way with Helix, then you can try a more extensive config that makes Helix more Vim-Like:  
+- https://github.com/LGUG2Z/helix-vim
 
 ## Copyright Notice
 
