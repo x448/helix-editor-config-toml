@@ -40,9 +40,9 @@ Some other useful settings are included as examples.
 
 ## Vim-Like Configuration for Helix
 
-Helix (and Kakuone) intentionally use some different keys and key combinations, which are worthwhile to try with an open mind.  Thankfully, many keys are the same.
+Helix (and [Kakoune](https://github.com/mawww/kakoune)) editors intentionally use some different keys and key combinations than Vim, which are worthwhile to try with an open mind.  Thankfully, many keys are the same as Vim.
 
-But if you prefer to keep editing code the Vim way with Helix, then you can try a more extensive config that makes Helix more Vim-Like:  
+But if you want to keep editing code in a more Vim-Like way with Helix, then you can try a more extensive config made that makes Helix more Vim-Like:  
 - https://github.com/LGUG2Z/helix-vim
 
 ## Copyright Notice
