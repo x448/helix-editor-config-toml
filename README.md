@@ -12,11 +12,11 @@ Notably, this config maps `esc` key to reset Helix to default state of:
 - single cursor
 - not having multiple chars selected.
 
-This `esc` key shortcut is helpful to new users and reviewers. See:
+This `esc` key shortcut is especially helpful to new users and reviewers. See:
 - https://github.com/helix-editor/helix/pull/5289
 - https://www.youtube.com/watch?v=8L308PdmhMY&t=887s
 
-As of Helix 22.12 (December 2022), most color hemes (including default) [don't work well in Helix tutorial](https://github.com/helix-editor/helix/pull/5309) (`hx --tutor`).  This config uses "dark_plus" theme which works great in Helix tutorial and it looks like "Dark+" from Visual Studio Code.
+As of Helix 22.12 (December 2022), most color themes (including default) [don't work well in Helix tutorial](https://github.com/helix-editor/helix/pull/5309) (`hx --tutor`).  This config uses "dark_plus" theme which works great in Helix tutorial and it looks like "Dark+" from Visual Studio Code.
 
 NOTE: Some advanced Helix users dislike the `esc` key shortcut.  They [prefer to use distinct keys](https://github.com/helix-editor/helix/pull/5289#issuecomment-1365344355) (extra steps) to escape back to fully default state.  However, `esc` key shortcut doesn't prevent users from pressing comma and semicolon for distinct operations, so using `esc` to fully reset makes Helix easier and more ergonomic.
 
