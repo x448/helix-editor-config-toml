@@ -18,15 +18,15 @@ This `esc` key shortcut is especially helpful to new users and reviewers. See:
 
 As of Helix 22.12 (December 2022), most color themes (including default) [don't work well in Helix tutorial](https://github.com/helix-editor/helix/pull/5309) (`hx --tutor`).  This config uses "dark_plus" theme which works great in Helix tutorial and it looks like "Dark+" from Visual Studio Code.
 
-NOTE: Some advanced Helix users dislike the `esc` key shortcut.  They [prefer to use distinct keys](https://github.com/helix-editor/helix/pull/5289#issuecomment-1365344355) (extra steps) to escape back to fully default state.  However, `esc` key shortcut doesn't prevent users from pressing comma and semicolon for distinct operations, so using `esc` to fully reset makes Helix easier and more ergonomic.
+NOTE: Some advanced Helix users dislike the `esc` key shortcut.  They [prefer to use distinct keys](https://github.com/helix-editor/helix/pull/5289#issuecomment-1365344355) (extra steps) to escape back to fully default state.  However, `esc` key shortcut doesn't prevent users from using `,` or `,` for distinct operations, so using `esc` to fully reset makes Helix easier and more ergonomic.
 
 ### Instructions:
 
 #### Linux, macOS, *BSD
-Copy this file to ~/.config/helix/config.toml
+Copy config.toml to ~/.config/helix/config.toml
 
 #### Windows
-Copy this file to %AppData%\helix\config.toml
+Copy config.toml to %AppData%\helix\config.toml
 
 ## Notable Helix Settings for New Users
 
@@ -42,7 +42,7 @@ Some other useful settings are included as examples.
 
 Helix (and [Kakoune](https://github.com/mawww/kakoune)) editors intentionally use some different keys and key combinations than Vim, which are worthwhile to try with an open mind.  Thankfully, many keys are the same as Vim.
 
-But if you want to keep editing code in a more Vim-Like way with Helix, then you can try a more extensive config made that makes Helix more Vim-Like:  
+But if you want to keep editing code in a more Vim-Like way with Helix, then you can try a more extensive config made for that purpose:  
 - https://github.com/LGUG2Z/helix-vim
 
 ## Copyright Notice
